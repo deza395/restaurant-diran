@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Reservas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero hero-contact" id=hero>
+        <div class="container">
+        
+        <h1 class="headline" style="display:inline;"> contacto</h1>
+        </div>
+      </section>
+
+
+    <section > 
+            <div class="global-headline global-contact">
+                <h2 class="sub-headline ">
+                    <span class="first-letter">N</span>uestros <span class="first-letter">M</span>edios
+                </h2>
+                <h1 class="headline headline-dark ">de contacto</h1>  
+                <div class="sub-contact">
+                   Te invitamos a disfrutar de la mejor experiencia gastronomica. Para consultas, reservas o cualquier duda que tengas, no dudes en comunicarte con nosotros. Te estaremos respondiendo a la brevedad
+                </div>                      
+                   
+        </div>
+    </section>
+   
+
+    <!-- INFO CONTACTO -->
+    <div class="main-contact">
+            <div class="container contact-cont">
+                <section class="two-cols-box no-margin" style="padding:0;">
+                    <article class="media-box right contact-col">
+                        <div class="data-info-contact">
+                            <div><img src="images/prueba.jpg" alt="imagen contacto" style="height: auto;" ></div>
+                            <div>
+        
+                                <img src="images/img-arabezco_02.svg" alt="arabezco" style="width:185px;">
+                                <ul class="info-footer contact">                           
+                                    <li>
+                                        <span><i class="fas fa-map-marker-alt"></i> </span>
+                                        <em>Oncativo 50,<strong>Cordoba, Argentina</strong></em>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="tel:005402901432253"><strong>0351 </strong>425-0019</a>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i>
+                                        <em class="es"> cocinadiran@hotmail.com</em>
+                                    </li>
+                                    <li>
+                                        <em class="es">Lunes a Sabado de 9:00 a 16:30 Hs.</em>
+                                    </li>
+                                </ul>
+                                <img src="images/img-arabezco_02.svg" alt="arabezco" style="width:185px;">                       
+                            </div>                 
+                        </div>
+                    </article>
+            
+                     <article class="info-box left map-box contact-col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6810.355074552339!2d-64.18392397756254!3d-31.40923428597336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dde5725716bcfc0!2zRGlyw6Fu!5e0!3m2!1ses-419!2sar!4v1612231586051!5m2!1ses-419!2sar" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </article>
+                </section>
+            </div>
+
+            <section class="two-cols-box no-margin">
+              <br><br><br><br><br><br>
+        
+                <article class="info-box contact-col" style="margin-bottom:0;">
+                    <h2><em>Formulario</em><strong>CONSULTA / RESERVA</strong></h2>
+                    <br>
+                    
+                    <form class="clearfix" id="contact">
+                        
+                        <input type="hidden" name="action" value="contacto" />
+                        <input type="hidden" name="url" value="https://www.chezmanu.com:443/es/contacto/" />
+                        <input type="hidden" name="contacto_tipo" value="contact" />
+                        
+                        <div class="input-box">
+                            <input type="text" placeholder="Nombre y apellido" name="name" class="required nourl" />
+                        </div>
+        
+                        <div class="input-box short">
+                            <input type="tel" placeholder="Teléfono" name="tel" class="required nourl phone" />
+                        </div>
+        
+                        <div class="input-box short right">
+                            <input type="text" placeholder="Ciudad" name="ciudad" class="required nourl" />
+                        </div>
+        
+                        <div class="input-box short">
+                            <div class="select-box">
+                                <div class="box">Cantidad adultos</div>
+                                <select onchange="this.parentNode.getElementsByTagName('div')[0].innerHTML=this.options[this.selectedIndex].text" name="adultos" class="required nourl">
+                                                                <option value="0">00</option>
+                                                                <option value="1">01</option>
+                                                                <option value="2">02</option>
+                                                                <option value="3">03</option>
+                                                                <option value="4">04</option>
+                                                                <option value="5">05</option>
+                                                                <option value="6">06</option>
+                                                                <option value="7">07</option>
+                                                                <option value="8">08</option>
+                                                                <option value="9">09</option>
+                                                                <option value="10">10</option>
+                                                                <option value="+10">+10</option>
+                                </select>
+                                <span data-icon="arrow-drop"></span>
+                            </div>
+                        </div>
+        
+                        <div class="input-box short right">
+                            <div class="select-box">
+                                <div class="box">Cantidad menores</div>
+                                <select onchange="this.parentNode.getElementsByTagName('div')[0].innerHTML=this.options[this.selectedIndex].text" name="menores" class="required nourl">
+                                                                <option value="0">00</option>
+                                                                <option value="1">01</option>
+                                                                <option value="2">02</option>
+                                                                <option value="3">03</option>
+                                                                <option value="4">04</option>
+                                                                <option value="5">05</option>
+                                                                <option value="6">06</option>
+                                                                <option value="7">07</option>
+                                                                <option value="8">08</option>
+                                                                <option value="9">09</option>
+                                                                <option value="10">10</option>
+                                                                <option value="+10">+10</option>
+                                </select>
+                                <span data-icon="arrow-drop"></span>
+                            </div>
+                        </div>
+        
+                        <div class="input-box short" style="z-index: 1500;">
+                            <input type="text" placeholder="Fecha reserva" name="fecha"id="calendario" readonly="" />
+                            <span class="icon-calendar-alt-stroke"><i class="fas fa-calendar-alt"></i></span>
+                        </div>
+
+        
+                        <div class="input-box short right">
+                            <input type="text" placeholder="Hora reserva" name="hora" class="nourl" />
+                            <span class="icon-clock"> <i class="far fa-clock"></i></span>
+                        </div>
+        
+                        <div class="input-box">
+                            <input type="email" placeholder="Email" name="email" class="required nourl" />
+                        </div>
+        
+                        <div class="input-box">
+                            <textarea placeholder="Comentarios" name="comments" class="required nourl"></textarea>
+                        </div>
+        
+                        <button type="submit" class="submit-btn">ENVIAR</button>
+        
+                        <div class="notices_holder" style="width:auto;float:left;"></div>
+                    </form>
+                </article>
+            </section>
+    </div>
+    
+    
+
+    <!-- footer -->
+    
+    <footer class="footer-contact">
+        <div class="container">
+            <div class="back-to-top">
+                <a href=""><i class="fas fa-chevron-up"></i></a>
+            </div>
+    
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="direction">
+                        <h6>Donde estamos</h6>
+                        <p>
+                            <i class="fas fa-map-marker-alt"></i> Oncativo 50, Cordoba, Argentina
+                        </p>
+                        <p>
+                            <i class="fa fa-phone" aria-hidden="true"></i> (0351) 425-0019
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="col-sm-4">
+                    <div class="hours">
+                        <h6>Horarios</h6>
+                        <p> De Lunes a sabado  de 9:00 a 16:30 Hs.
+                          <br>
+                          <br>     
+                        </p>
+                    </div>  
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="hours">
+                        <h6>Redes sociales</h6>
+                        <p> <i class="fab fa-facebook" style="font-size: 40px;"></i>
+                          <br>
+                          <br>     
+                        </p>
+                    </div>  
+                </div>
+
+            </div>
+        </div>        
+    </footer>  
+
+   
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.12.1.custom/jquery-ui.css">
+	<script src="jquery-3.3.1.min.js"></script>
+	<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="main.js"></script>
+
+ 
+</body>
+</html>
+
+<script type="text/javascript">
+ $.datepicker.regional['es'] = {
+ closeText: 'Cerrar',
+ prevText: '< Ant',
+ nextText: 'Sig >',
+ currentText: 'Hoy',
+ monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+ monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+ dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+ dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+ dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+ weekHeader: 'Sm',
+ dateFormat: 'dd/mm/yy',
+ 
+ firstDay: 1,
+ isRTL: false,
+ showMonthAfterYear: false,
+ yearSuffix: ''
+ };
+ $.datepicker.setDefaults($.datepicker.regional['es']);
+    $(function() {
+        $("#calendario").datepicker({ minDate: 0 });
+    });
+</script>
